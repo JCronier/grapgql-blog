@@ -40,4 +40,4 @@ const Comments = ({ slug }) => {
   )
 }
 
-export default Comments
+export default Comments;
