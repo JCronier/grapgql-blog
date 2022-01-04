@@ -28,6 +28,7 @@ export default function Home({ posts }) {
 
 export async function getServerSideProps() {
   const posts = (await getPosts()) || [];
+  console.log("Refresh", posts)
   return {
     props: { posts }
   };
